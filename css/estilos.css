@@ -1,1 +1,68 @@
-html
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.primer {
+  display: flex;
+  background-color: #ffff;
+  justify-content: center;
+}
+
+.primer1 {
+  display: flex;
+  height: 120px;
+  position: absolute;
+  top: 50px;
+}
+
+.primer2 {
+  display: flex;
+  text-decoration: none;
+  font-size: 18px;
+  position: absolute; /* Establece la posición absoluta */
+  top: 100px;
+  right: 0; /* Mueve el elemento hacia la derecha */
+}
+
+.primer,
+.segunda {
+  margin-top: 100px;
+}
+
+.segunda {
+  display: flex;
+  background-color: #26bdcf;
+  padding: 40px;
+  
+}
+
+.segunda1 {
+  position: absolute;
+  margin-top: -20px;
+  left: 42%;
+  font-size: 24px;
+  color:#ffff;
+  font-weight: bold;
+}
+
+.segunda2 {
+  display: flex;
+  
+  position: relative;
+  left: 9rem;
+  top: 4rem;
+}
+
+
+.segunda3 {
+  width: 80%;
+  margin: 10px auto 30px; 
+  left: 40%;
+}
