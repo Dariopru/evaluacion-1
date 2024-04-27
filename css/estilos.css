@@ -13,6 +13,7 @@ html {
   display: flex;
   background-color: #ffff;
   justify-content: center;
+  
 }
 
 .primer1 {
@@ -29,7 +30,13 @@ html {
   position: absolute;
   top: 100px;
   right: 0;
+  background-color: black;
+  color: white;
+  padding: 1rem ;
+  border: none;
+ 
 }
+
 
 .primer,
 .segunda {
@@ -38,14 +45,15 @@ html {
 
 .segunda {
   display: flex;
-  background-color: #26bdcf;
-  padding: 40px;
+  background-color: rgb(91, 185, 210);;
+  padding: 30px;
 }
 
 .segunda1 {
   position: absolute;
   margin-top: -20px;
   left: 42%;
+  margin-top: -2px;
   font-size: 24px;
   color: #ffff;
   font-weight: bold;
@@ -53,7 +61,6 @@ html {
 
 .segunda2 {
   display: flex;
-
   position: relative;
   left: 9rem;
   top: 4rem;
@@ -107,12 +114,42 @@ a {
   font-size: 16px;
 }
 
+.celu {
+  display: flex;
+  align-items: center;
+}
+
+.celu svg {
+  margin-right: 5px;
+  width: 12px;
+  height: 12px;
+}
+
+.ubi {
+  display: flex;
+  align-items: center;
+}
+
+.ubi svg {
+  margin-right: 5px;
+  width: 12px;
+  height: 12px;
+}
+
+.yes {
+  color: #111;
+  font-size: 16px;
+}
+
 .tercero5 {
   margin-top: 10px;
   font-size: 14px;
   color: #999;
 }
 
+.salto{
+  margin-top: 14rem;
+}
 .cuarto {
   text-align: center;
 }
@@ -140,11 +177,39 @@ a {
 }
 
 .cuarto2 a img {
-  transition: transform 0.2s ease;
+  transition: transform 0.1s ease;
 }
 
 .cuarto2 a:hover img {
   transform: translate(0, -3px);
 }
 
-.cuarto
+.quinta {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(91, 185, 210);
+  padding: 8rem;
+}
+
+.quinta1,
+.quinta2 {
+  flex-basis: 17%;
+}
+
+.quinta1 img {
+  top: 20rem;
+}
+
+.quinta2 h3 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-family: "Sen", sans-serif;
+}
+
+.quinta2 a {
+  font-size: 16px;
+  font-family: "Sen", sans-serif;
+  color: #111;
+  margin-bottom: 20px;
+}
