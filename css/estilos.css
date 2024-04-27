@@ -26,9 +26,9 @@ html {
   display: flex;
   text-decoration: none;
   font-size: 18px;
-  position: absolute; /* Establece la posición absoluta */
+  position: absolute; 
   top: 100px;
-  right: 0; /* Mueve el elemento hacia la derecha */
+  right: 0; 
 }
 
 .primer,
@@ -66,3 +66,56 @@ html {
   margin: 10px auto 30px; 
   left: 40%;
 }
+
+
+
+.tercero{
+  margin-bottom: 4rem;
+  font-size: 18px;
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+}
+
+.si{
+  margin-left: 35rem;
+}
+
+.tercero1{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.tercero2{
+  padding: 10px;
+  box-shadow: 0 2px 4px #32325d1a;
+}
+
+.tercero3{
+  width: 300px;
+  height: 180px;
+}
+
+a{
+  display: block; 
+  margin-bottom: 5px; 
+  text-decoration: none;
+}
+
+.tercero4{
+  font-size: 20px;
+  font-weight: 700;
+  
+  
+}
+
+.yes{
+  color: #111;
+  font-size: 16px;
+}
+
+.tercero5{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #999;
+  }
