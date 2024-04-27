@@ -26,9 +26,9 @@ html {
   display: flex;
   text-decoration: none;
   font-size: 18px;
-  position: absolute; 
+  position: absolute;
   top: 100px;
-  right: 0; 
+  right: 0;
 }
 
 .primer,
@@ -40,7 +40,6 @@ html {
   display: flex;
   background-color: #26bdcf;
   padding: 40px;
-  
 }
 
 .segunda1 {
@@ -48,104 +47,94 @@ html {
   margin-top: -20px;
   left: 42%;
   font-size: 24px;
-  color:#ffff;
+  color: #ffff;
   font-weight: bold;
 }
 
 .segunda2 {
   display: flex;
-  
+
   position: relative;
   left: 9rem;
   top: 4rem;
 }
 
-
 .segunda3 {
   width: 80%;
-  margin: 10px auto 30px; 
+  margin: 10px auto 30px;
   left: 40%;
 }
 
-
-
-.tercero{
+.tercero {
   margin-bottom: 4rem;
   font-size: 18px;
-  font-family: 'Sen', sans-serif;
+  font-family: "Sen", sans-serif;
   font-weight: bold;
 }
 
-.si{
+.si {
   margin-left: 35rem;
 }
 
-.tercero1{
+.tercero1 {
   display: flex;
   justify-content: center;
-  
 }
 
-.tercero2{
+.tercero2 {
   padding: 10px;
   box-shadow: 0 2px 4px #32325d1a;
 }
 
-.tercero3{
+.tercero3 {
   width: 300px;
   height: 180px;
 }
 
-a{
-  display: block; 
-  margin-bottom: 5px; 
+a {
+  display: block;
+  margin-bottom: 5px;
   text-decoration: none;
 }
 
-.tercero4{
+.tercero4 {
   font-size: 20px;
   font-weight: 700;
-  
-  
 }
 
-.yes{
+.yes {
   color: #111;
   font-size: 16px;
 }
 
-.tercero5{
+.tercero5 {
   margin-top: 10px;
   font-size: 14px;
   color: #999;
-  }
+}
 
-
-.cuarto{
+.cuarto {
   text-align: center;
 }
 
-.cuarto1{
-  font-family: 'Sen', sans-serif;
-    font-size: 35px;
-    margin-bottom: 40px;
-    font-weight: bold;
-    
+.cuarto1 {
+  font-family: "Sen", sans-serif;
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-weight: bold;
 }
 
-.cuarto2{
+.cuarto2 {
   display: flex;
   justify-content: center;
-  
-  
 }
 
 .cuarto2 a {
   margin-right: 20px;
-  transition: all .15s ease;
+  transition: all 0.15s ease;
 }
 
-.cuarto2 img{
+.cuarto2 img {
   width: 280px;
   border-radius: 5px;
 }
@@ -155,7 +144,7 @@ a{
 }
 
 .cuarto2 a:hover img {
-  transform: translate(0, -3px); 
+  transform: translate(0, -3px);
 }
 
-
+.cuarto
