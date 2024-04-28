@@ -213,3 +213,42 @@ a {
   color: #111;
   margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+/*index 2 y 3 ignorar*/
+
+.nav1{
+  margin-top: 10rem;
+  background-color:whitesmoke;
+
+}
+
+.navegador {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.navegador a {
+  margin-left: 6rem;
+  text-align: center;
+  color: black; 
+  text-decoration: none;
+  font-size: 20px;  
+  padding: 10px;
+ 
+}
+
+.si1{
+  border-bottom: 3px solid
+}
+
+
